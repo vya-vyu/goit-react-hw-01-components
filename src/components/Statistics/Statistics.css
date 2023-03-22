@@ -1,0 +1,27 @@
+.statistics {
+  background-color: #ffffff;
+  margin-bottom: 40px;
+}
+.statistics__title {
+  text-align: center;
+  font-size: 32px;
+}
+.statistics__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.statistics__item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.statistics__label {
+  color: #ffffff;
+  font-size: 20px;
+}

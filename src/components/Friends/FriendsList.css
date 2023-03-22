@@ -1,0 +1,33 @@
+.friends__list {
+  list-style: none;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+.friends__item {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.friends__avatar {
+  width: 10%;
+}
+.friends__status {
+  display: block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  background-color: red;
+}
+
+.friends__status--isonline {
+  background-color: green;
+}
+.friends__name {
+  margin: 0;
+}
