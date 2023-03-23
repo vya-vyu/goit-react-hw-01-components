@@ -2,17 +2,17 @@
   background-color: #ffffff;
   margin-bottom: 40px;
 }
-.statistics__title {
+.title {
   text-align: center;
   font-size: 32px;
 }
-.statistics__list {
+.list {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
-.statistics__item {
+.item {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   font-size: 20px;
 }
 
-.statistics__label {
+.label {
   color: #ffffff;
   font-size: 20px;
 }

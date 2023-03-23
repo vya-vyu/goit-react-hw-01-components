@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import StatisticsItem from './StatisticsItem';
-import './Statistics.css';
+import s from './Statistics.module.css';
 import getRandomHexColor from './getRandomHexColor';
 
 const Statistics = ({ stats }) => {
   return (
-    <section className="statistics">
-      <h2 className="statistics__title">Upload stats</h2>
+    <section className={s.statistics}>
+      <h2 className={s.title}>Upload stats</h2>
 
-      <ul className="statistics__list">
+      <ul className={s.list}>
         {stats.map(el => {
           return (
             <StatisticsItem
